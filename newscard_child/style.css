@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+ Theme Name:   NewsCard
+ Theme URI:    https://wordpress.org/themes/newscard/
+ Description:  NewsCard Child Theme
+ Author:       Alexander Juul Sørensen
+ Author URI:   http://alexanderjs.dk
+ Template:     newscard
+ Text Domain:  newscard
+ Version: 	   1.0.0
+*/
+
+footer#colophon {
+	margin-top:30px !important;
+}
+
+body.home .widget_search, body.home .widget_recent_entries, body.single.single-post .widget_search ,body.single.single-post .widget_recent_entries,
+body.home div#post-23.post-23.page.type-page.status-publish.hentry, .by-author.vcard.author, .entry-meta.category-meta, .search-toggle, 
+.author-link, .wp-link, div.theme-link::after, .archive-description, div.date::after {
+	display:none !important;
+}
+
+.row.gutter-parent-10.two-column-featured-section {
+	margin-top:25px;
+}
+
+.copyright.col-lg.order-lg-1.text-lg-left {
+	text-align:center !important;
+}
+
+.navbar.navbar-expand-lg.d-block {
+	padding:0 !important;
+}
+
+.navbar-main .container {
+	padding:0 !important;
+}
+
+.page-header, .page-header .page-title {
+	overflow:hidden!important;
+}
+
+.single.single-post .widget-area .sticky-wrapper .sticky-sidebar,
+.single.single-post.widget-area .sticky-wrapper.is-sticky .sticky-sidebar {
+	position: static !important;
+}
+
+.col-sm-6.col-xxl-4.post-col {
+	padding:15px;
+}
+
+.site-main .type-page {
+	padding:15px;
+}
+
+div#content.site-content {
+	margin:0 auto !important;
+}
+
+.btn_cursor  {
+	cursor:pointer;
+}
+
+textarea {
+	width:343.5px;
+	min-height:200px;
+}
+
+@media (min-width: 768px) {
+	
+	div#content.site-content {
+		max-width: 720px;
+	}
+	
+}
+
+@media (min-width: 992px) {
+	
+	div#content.site-content {
+		max-width: 960px;
+	}
+	
+}
+
+@media (min-width: 1200px) {
+	
+	div#content.site-content {
+		max-width:1140px
+	}
+	
+}
